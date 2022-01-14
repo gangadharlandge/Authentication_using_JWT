@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    width: 50vw;
+    height: 50vh;
+    align-items: center;
+    margin-top: 56px;
+    border-radius: 50px;
+}
+.card h2{
+    position:relative;
+    top: 0px;
+}
+.card label, input{
+    height: 20px;
+    width: 250px;
+}
+.card button{
+    cursor: pointer;
+    margin-top: 25px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
